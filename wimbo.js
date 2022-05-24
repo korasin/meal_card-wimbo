@@ -40,3 +40,28 @@ function submit(){
         $("#kira").html("You are not registered")
     }
 }
+
+
+// $(document).ready(function(){
+//   $('#runner').get().reset();
+// })
+
+// document.getElementById("reset").reset();
+// document.forms[0].reset();
+
+function kiki(){
+    // console.log(kiki)
+    document.getElementById('result').value = '';
+
+//     location.reload();
+   
+}
+
+// $(document).ready(function(){
+//     // console.log('ready')
+//     $("reset").click(function(){
+//         console.log('ready')
+//         $('#result')[0].reset()
+//     });
+// });
+
