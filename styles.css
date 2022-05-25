@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+    background-color: pink;
+}
+
+h1{
+    font-style: italic;
+}
+
+#sub{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+#res{
+    background-color: cornflowerblue;
+}
+
+#regist{
+    color: aqua;
+    font-size: large;
+}
+
+#ifeaten{
+    color: rgb(252, 4, 182);
+    font-size: large;
+}
+
+
+
