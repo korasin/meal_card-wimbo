@@ -72,7 +72,7 @@ function submit(){
 function reset(){
     // console.log(reset)
 
-    //getting value from html by id result and reset the string to empty
+    //getting value from html by id result and reset the string to empty string
     document.getElementById('result').value = '';
 
 //     location.reload();
