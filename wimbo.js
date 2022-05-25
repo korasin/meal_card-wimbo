@@ -31,9 +31,6 @@ function submit(){
         let personEaten = personsWhoHaveEaten.includes(nameEnteredByUser)
         // console.log(personEaten);
 
-    //  nameKnown.push(nameEnteredByUser)
-        // console.log(nameKnown);
-
         //checking if the person has eaten
         if (personEaten){
             // console.log("You have eaten");
@@ -60,30 +57,12 @@ function submit(){
 }
 
 
-// $(document).ready(function(){
-//   $('#runner').get().reset();
-// })
-
-// document.getElementById("reset").reset();
-// document.forms[0].reset();
-
-
 //define reset function
 function reset(){
     // console.log(reset)
 
     //getting value from html by id result and reset the string to empty string
     document.getElementById('result').value = '';
-
-//     location.reload();
    
 }
-
-// $(document).ready(function(){
-//     // console.log('ready')
-//     $("reset").click(function(){
-//         console.log('ready')
-//         $('#result')[0].reset()
-//     });
-// });
 
